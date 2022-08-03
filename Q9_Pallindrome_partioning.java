@@ -1,4 +1,6 @@
 import java.util.*;
+// given a string 
+// we have to print all partioning substring which are pallindrome
 public class Q9_Pallindrome_partioning {
 
     public static void main(String[] args) {
