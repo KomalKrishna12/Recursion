@@ -31,9 +31,8 @@ public class Q5_Print_all_permutations_of_string_and_array {
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
         permuattions2(0, nums, ans);
         System.out.println(ans);
-        
+       
     }
-   
 
     public static void permuattions2(int idx, int[] nums, ArrayList<ArrayList<Integer>> ans) {
         if (idx == nums.length) {
