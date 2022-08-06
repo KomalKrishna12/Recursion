@@ -69,7 +69,7 @@ public class Q6_N_Queens {
                 board[row][col] = '.';
             }
         }
-    }
+    } 
 
     public static ArrayList<String> construct(char[][] board){
         ArrayList<String> ds = new ArrayList<>();
