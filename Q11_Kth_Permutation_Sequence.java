@@ -19,7 +19,7 @@ public class Q11_Kth_Permutation_Sequence {
     public static String getPermutation(int n, int k){
         int fact = 1;
         ArrayList<Integer> num = new ArrayList<>();
-        for(int i = 1; i < n; i++){
+        for(int i = 1; i < n; i++){ 
             fact *= i;
             num.add(i);
         }
